@@ -14,7 +14,7 @@ val commonLibraries = Seq(
 libraryDependencies ++= commonLibraries
 val commonSettings = Seq(
   organization := "com.jjzi",
-  version := "0.1-SNAPSHOT",
+  version := "0.1-SNAPSHOT"
   )
 lazy val db_message = (project in file("akka-db-message"))
   .settings(commonSettings)
